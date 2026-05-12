@@ -1,0 +1,13 @@
+Description: This template will create EC2 Instance
+Resources:
+  UbuntuInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      KeyName: sandeep-terraform
+      ImageId: ami-0eab37cfdc33e8e65
+      InstanceType: t2.micro
+      SecurityGroupIds:
+        - sg-0ce67f503ab4915a7
+      Tags:
+        - Key: Name
+          Value: webserver
