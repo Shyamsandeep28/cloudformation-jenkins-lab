@@ -9,11 +9,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Shyamsandeep28/cloudformation-jenkins-lab.git'
-            }
-        }
+       
 
         stage('Validate CloudFormation Template') {
             steps {
