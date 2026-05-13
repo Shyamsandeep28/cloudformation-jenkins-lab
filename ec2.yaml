@@ -10,4 +10,4 @@ Resources:
         - sg-0ce67f503ab4915a7
       Tags:
         - Key: Name
-          Value: webserver
+          Value: application_server
