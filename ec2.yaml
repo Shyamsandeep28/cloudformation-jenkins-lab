@@ -5,7 +5,7 @@ Resources:
     Properties:
       KeyName: sandeep-windows
       ImageId: ami-0eab37cfdc33e8e65
-      InstanceType: t2.micro
+      InstanceType: t2.large
       SecurityGroupIds:
         - sg-0ce67f503ab4915a7
       Tags:
