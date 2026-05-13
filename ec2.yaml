@@ -3,7 +3,7 @@ Resources:
   UbuntuInstance:
     Type: AWS::EC2::Instance
     Properties:
-      KeyName: sandeep-terraform
+      KeyName: sandeep-windows
       ImageId: ami-0eab37cfdc33e8e65
       InstanceType: t2.micro
       SecurityGroupIds:
